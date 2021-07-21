@@ -1,0 +1,45 @@
+﻿{
+  "base_url": "https://jsonplaceholder.typicode.com/",
+  "content_type": "application/json",
+  "get_posts_resource": "/posts",
+  "get_posts_statuscode": 200,
+  "get_posts_sortkey": "Id",
+  "get_post99_resource": "/posts/99",
+  "get_post99_statuscode": 200,
+  "get_post99_userid": 10,
+  "get_post99_id": 99,
+  "get_post150_resource": "/posts/150",
+  "get_post150_statuscode": 404,
+  "get_post150_id": 150,
+  "post_newpost_resource": "/posts",
+  "post_newpost_userid": 1,
+  "post_newpost_statuscode": 201,
+  "get_user5_id": 5,
+  "get_users_resource": "/users",
+  "get_users_statuscode": 200,
+  "user5": {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  "get_user5_resource": "/users/5",
+  "get_user5_statuscode": 200
+}
